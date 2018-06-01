@@ -1,0 +1,20 @@
+# Create a Repository in GitHUB
+
+# Go to a Local folder under which you need your GitHub Repository to be downloaded
+
+>git clone "https://github.com/axprasad/LearningK8s"
+
+# Add your files to the local Folder/ Git Local Repository
+> git add -A -v (for all files)
+> git add "Name of the file"
+Example
+> git add GitComamnds.txt
+
+
+###Commit your changes to local repository
+>git commit  -m  "Message"
+
+
+#### Push it to Server from Local Repository
+git push
+
