@@ -1,0 +1,33 @@
+
+
+
+# Pull base image.
+FROM oraclelinux:7-slim
+
+
+# Install Python.
+
+#Yum install wget tar gcc
+RUN \
+    yum update && \
+    yum install wget tar gcc
+
+
+# Install Python:
+RUN \
+   wget https://www.python.org/ftp/python/3.6.5/Python-3.6.5.tar.xz  && \
+   tar xvf Python-3.6.5.tar.xz  && \
+   cd Python-3.6.5 && \
+   ./configure && \
+   make && \
+   make install
+
+# Copy the files into Docker Image
+COPY DiceGame.py MyService.py  /app/source/
+
+# Define working directory.
+WORKDIR /app/source
+
+# Define default command.
+# What do you need to run when the container is runs.
+CMD ["python", "MyService.py"]
