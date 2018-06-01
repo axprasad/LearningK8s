@@ -10,7 +10,7 @@ FROM oraclelinux:7-slim
 #Yum install wget tar gcc
 RUN \
     yum update && \
-    yum install wget tar gcc
+    yum install -y wget tar gcc
 
 
 # Install Python:
