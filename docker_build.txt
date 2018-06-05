@@ -1,0 +1,10 @@
+How to Post Images to Docker Registry
+
+
+> Docker login
+> axprasad / <password>
+
+> docker tag hellorolldice  axprasad/rolldice
+
+# Push the image to registry.
+> docker push axprasad/rolldice
