@@ -1,0 +1,32 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: diceapp-deployment
+spec:
+  selector:
+    matchLabels:
+      app: rollingdice
+  replicas: 1 # deployment runs 1 pods matching the template
+  template: # create pods using pod definition in this template
+    metadata:
+      labels:
+        app: rollingdice
+    spec:
+      containers:
+      - name: rollingdice
+        image: axprasad/rolldice:latest
+        ports:
+        - containerPort: 8080 #Endpoint is at port 80 in the container
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: diceapp-service
+spec:
+  type: NodePort #Exposes the service as a node port
+  ports:
+  - port: 8080
+    protocol: TCP
+    targetPort: 8080
+  selector:
+    app: rollingdice

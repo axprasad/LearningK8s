@@ -1,0 +1,44 @@
+
+
+
+Cluster  ->  What do you mean by Cluster???
+
+Node   ->   <Blue VM>
+
+---
+~/.oci/config file will contain all the OCIDs from the tenant
+
+Since we used gse00014475, We copied Tenant, User, Compartment, Finger Print
+into .oci/config file
+
+
+Note: Cluster is created on gse00014475.  download the get-Kubeconfig file
+
+
+
+To Create Kubeconfig,  you need to use get_kubeconfig file and run it
+Note: get-kubeconfig.sh will reference ~/.oci/config file
+
+# Assuming the file is in your home directory
+chmod +x ~/get-kubeconfig.sh
+
+# Export ENDPOINT which points to the region's api server
+export ENDPOINT=containerengine.us-ashburn-1.oraclecloud.com
+
+# Retrieve and save the kubeconfig
+~/get-kubeconfig.sh ocid1.cluster.oc1.iad.aaaaaaaaaezdindgmuzdszjsga3tgmbvge2denjymu3tqzdegc3gioldhbrd > ~/kubeconfig
+
+
+
+Download the Kubeconfig into your laptop.
+
+
+# Use the kubeconfig with kubectl commands
+export KUBECONFIG=~/kubeconfig  
+
+export KUBECONFIG="C:\Anand\Education\Containers\LearningK8s\kubeconfig.txt"
+
+Note:  Kubeconfig was generated from get_kubeconfig
+
+> kubectl get nodes
+

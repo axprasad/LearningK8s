@@ -1,0 +1,13 @@
+[gse00014475]
+user=ocid1.user.oc1..aaaaaaaadgscclnatka6fws745qelut2if3r6gwsnckcrudjjll2ek26rxhq
+
+
+fingerprint=35:35:d0:9a:37:85:93:0a:b0:00:eb:8c:c5:d4:ae:49
+
+key_file=/utils/keys/oci_api_key.pem
+tenancy=ocid1.tenancy.oc1..aaaaaaaae37ka2cmo4gdwdniluhn4scf4ofey32q7zrivysltbu5xkvd2bja
+compartment_id=ocid1.compartment.oc1..aaaaaaaab75qcyzxkljgahryjvkmcea4sz77ghdl65ccqre32yi6p2j6tlwa
+
+
+Auth_Token = lS1q+fl#MojG2ria!PA(
+
