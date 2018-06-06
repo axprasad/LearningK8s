@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42e896f0-48ce-4ee7-b473-7a70d73bce11" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/DiceK8s.yaml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile_OL" afterPath="$PROJECT_DIR$/Dockerfile_OL" />
-    </list>
+    <list default="true" id="42e896f0-48ce-4ee7-b473-7a70d73bce11" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,11 +21,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiceK8s.yaml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DiceK8s.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DiceK8s.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+            <state relative-caret-position="209">
+              <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -45,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyService.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyService.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyService.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="17" />
               <folding>
                 <element signature="e#0#67#0" expanded="true" />
               </folding>
@@ -93,7 +89,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="289" />
+    <option name="x" value="321" />
     <option name="y" value="55" />
     <option name="width" value="1022" />
     <option name="height" value="726" />
@@ -154,7 +150,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="289" y="55" width="1022" height="726" extended-state="0" />
+    <frame x="321" y="55" width="1022" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24950299" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -262,21 +258,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyService.py">
+    <entry file="file://$PROJECT_DIR$/DiceK8s.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#67#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="209">
+          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DiceK8s.yaml">
+    <entry file="file://$PROJECT_DIR$/MyService.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="272">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#67#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,0 +1,30 @@
+
+Step 1:
+
+1. Cluster
+2. Node Pool
+	The Shape of the VM and how many VMs
+	SSH Key
+	Version of the Kubernates
+
+Step 2:
+Build Kubernates Config  (Kube Config)
+	For each Cloud they will provide script to download kubeconfig
+	Based on the Environment details and kubeconfig
+	We create configuration file which is used by Kubectl to talk to API Server
+
+
+
+Step 3:  Continous Process
+Docker:
+1. Created a Docker File
+2. Build a Image  (You can also push the image files to Github)
+3. Tag the Image
+4. Push it to Docker Hub
+
+
+Step 4: Pushed it to Kubernates
+Kubernates Service and Deployment
+
+-------
+Learn on Google Cloud.....
