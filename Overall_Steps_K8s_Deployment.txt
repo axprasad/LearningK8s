@@ -39,3 +39,5 @@ How to unSet Proxy
 git config --global --unset http.proxy && git config --global --unset https.proxy
 
 ...
+
+>kubectl proxy   (to start Kubernetes Dashboard)
