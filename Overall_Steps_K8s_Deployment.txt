@@ -27,4 +27,15 @@ Step 4: Pushed it to Kubernates
 Kubernates Service and Deployment
 
 -------
-Learn on Google Cloud.....
+Learn on Google Cloud..
+
+
+
+How to set Proxy.
+git config --global http.proxy http://www-proxy.us.oracle.com:80 && git config --global https.proxy https://www-proxy.us.oracle.com:80
+
+
+How to unSet Proxy
+git config --global --unset http.proxy && git config --global --unset https.proxy
+
+...
